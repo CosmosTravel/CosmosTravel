@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fdfdfd;
+    color: #151515;
+}
+
+.navbar-nav a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #151515;
+}
+
+.navbar-nav a:hover {
+    color: #636363;
+}
+
+.navbar-light .navbar-brand {
+    color: #151515;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: #151515;
+}
+
+.w-100 {
+    height: 100vh;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.carousel-item {
+    min-height: 300px;
+}
+
+.carousel-caption {
+    bottom: 220px;
+    z-index: 2;
+}
+
+.carousel-caption h5 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 24px; 
+    color: #fafafa;
+}
+
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 20px;
+    line-height: 1.9;
+    color: #fafafa;
+}
+
+.carousel-inner::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.btn-style {
+    margin: 24px;
+    color: #fff;
+    background-color: #feb716;
+    border-color: #feb716;
+}
+
+.btn-style:hover {
+    color: #fff;
+    background-color: #feb716;
+    border-color: #feb716;
+}
+
+.about {
+    margin-top: 50px;
+}
+
+.about h2{
+    color: #151515;
+    font-size: 40px;
+}
+
+.about h3 {
+    font-size: 25px;
+}
+
+.about .card{
+    background-color: #feb716; 
+    border-color: #feb716;
+    margin-bottom: 40px;
+}
+
+.about .card-body i{
+    font-size: 60px;
+}
+
+.services {
+    margin-top: 30px;
+    background-color: #feb716;
+    padding-bottom: 50px;
+}
+
+.services h2{
+    color: #fff;
+    font-size: 40px;
+    margin-top: 60px;
+}
+
+.services h3 {
+    font-size: 25px;
+}
+
+.services .card{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.address {
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    height: 100%; 
+}
+
+.address h2 {
+    margin-top: 50px;
+    color: #151515;
+    font-size: 40px;
+    text-align: center;
+    text-justify: center;
+}
+  
+.address p {
+    white-space: pre-line;
+    text-align: center;
+    text-justify: center;
+    padding: 24px 0px;
+}
+
+.contact {
+    background-color: #feb716;
+}
+
+.contact h2 {
+    margin-top: 60px;
+    font-size: 30px;
+    text-align: center;
+    text-justify: center;
+    color: #fff;
+}
+
+.contact .card-body i{
+    font-size: 60px;
+}
+
+.contact .card{
+    background-color: #feb716; 
+    border-color: #feb716;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.contact p{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.contact a {
+    color: #fff;
+}
+
+.copy-right {
+    background-color: #feb716; 
+}
+
+.copy-text {
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-caption {
+        bottom: 150px;
+    }
+
+    .carousel-caption p {
+        width: 100%;
+        line-height: 1.6;
+        font-size: 18px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 40px;
+    }
+    
+    .btn-style {
+        color: #fafafa;
+        background-color: #01567f;
+        border-color: #01567f;
+    }
+    
+    .btn-style:hover {
+        color: #fafafa;
+        background-color: #01567f;
+        border-color: #01567f;
+    }
+
+    .about h2{
+        font-size: 35px;
+    }
+
+    .about h3{
+        font-size: 20px;
+    }
+
+    .about p {
+        font-size: 15px;
+    }
+
+    .about .card{
+        background-color: #01567f; 
+        border-color: #01567f;
+    }
+
+    .services {
+        background-color: #01567f;
+    }
+
+    .services h2{
+        font-size: 35px;
+    }
+
+    .services h3{
+        font-size: 20px;
+    }
+
+    .services p {
+        font-size: 15px;
+    }
+
+    .address h2{
+        font-size: 35px;
+    }
+
+    .address p {
+        font-size: 15px;
+    }
+
+    .address {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .contact h2{
+        font-size: 30px;
+    }
+
+    .contact p {
+        font-size: 15px;
+    }
+
+    .contact .card{
+        background-color: #01567f; 
+        border-color: #01567f;
+    }
+
+    .contact {
+        background-color: #01567f;
+    }
+
+    .copy-right {
+        background-color: #01567f; 
+        padding-bottom: 20px;
+    }
+
+    .copy-text {
+        font-size: 12px;
+        color: #fff;
+    }
+
+    .map-responsive{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+    }
+    .map-responsive iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
+}
